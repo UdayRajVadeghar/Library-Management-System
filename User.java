@@ -17,6 +17,7 @@ public class User {
     public String getUsername() {
         return username;
     }
+    
 
     public void displayDetails() {
         System.out.println("User: " + username + "\nBooks Checked Out: " + booksCheckedOut.size());
