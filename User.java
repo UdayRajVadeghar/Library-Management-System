@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
 
+//we have to use lists in order to have a continuous array of elements in a given space
+
 public class User {
     private String username;
     private String password;
