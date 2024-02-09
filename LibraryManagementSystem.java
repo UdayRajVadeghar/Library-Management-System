@@ -7,7 +7,7 @@ public class LibraryManagementSystem {
         Genre mythological = new Genre("Mythological");
         Genre historicalFiction = new Genre("Historical Fiction");
 
-        // Introducing books with an Indian touch
+        // Creating new books from the Book class
         Book book1 = new Book("The Immortals of Meluha", "Amish Tripathi", "9789381626344", mythological);
         Book book2 = new Book("The Palace of Illusions", "Chitra Banerjee Divakaruni", "9780330458534", historicalFiction);
         Book book3 = new Book("Half Girlfriend", "Chetan Bhagat", "9788129135728", historicalFiction);
@@ -21,7 +21,7 @@ public class LibraryManagementSystem {
         library.displayAllBooks();
 
         // Introducing library members
-        User user1 = new User("raj_kumar", "raja123");
+        User user1 = new User("raj_kumar", "raja123");//any name of your choice as an user ID with the autorized passwords
         User user2 = new User("priya_sharma", "p@ssw0rd");
 
         // Adding members to the library community
@@ -43,7 +43,7 @@ public class LibraryManagementSystem {
         // Removing user2 from the library
         library.removeUser(user2);
 
-        // Apologies, no due book notifications today (not implemented in the example)
+        // The due books notification
         library.notifyDueBooks();
     }
 }
