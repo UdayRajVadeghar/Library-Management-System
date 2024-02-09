@@ -1,3 +1,5 @@
+// Book class where the objecct of the book has been created
+
 public class Book {
     private String title;
     private String author;
