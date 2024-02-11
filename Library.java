@@ -5,7 +5,7 @@ public class Library {
     private List<Book> books;
     private List<User> users;
 
-    public Library() {
+    public Library( ) {
         books = new ArrayList<>();
         users = new ArrayList<>();
     }
