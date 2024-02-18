@@ -30,7 +30,7 @@ public class Book {
     public Genre getGenre() {
         return genre;
     }
-
+ 
     public boolean isAvailable() {
         return available;
     }
